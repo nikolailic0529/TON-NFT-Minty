@@ -1,17 +1,24 @@
-# Overview
+## Overview
 
-The project is highly-opinionated, and there are many other alternate routes it could have taken. Some examples:
+Example of minting NFT Collection on TON using ton.js
 
-- Supports Ton Connect 2 wallets
-- Uses vite with react (alternative to create-react-app)
-- Uses the `ton` npm package
+# Server
+### Environment variables
 
-# Prerequesities
+| Name                                     | Description                              |
+| ---------------------------------------- | ---------------------------------------- |
+| `PINATA_API_KEY`, `PINATA_API_SECRET`| API keys from [pinata.cloud](https://pinata.cloud)|
+| `MNEMONIC`                               | 24 mnemonic words of owner wallet        |
+| `TONCENTER_API_KEY`                      | API key from [@tonapibot](https://t.me/tonapibot) / [@tontestnetapibot](https:/t.me/tontestnetapibot)                        |
+
+## TWA-Client
+
+### Prerequesities
 
 - Node.js v16 (other versions may work, needs more testing)
 - A TON Connect compatible wallet (e.g. [Tonkeeper](https://tonkeeper.com/))
 
-# How to use
+### How to use
 
 1. Create a template from this repo with the "Use this template" button
 
